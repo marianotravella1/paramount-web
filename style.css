@@ -4,7 +4,6 @@ header {
   }
 }
 
-
 body {
   background-image: url(./images/upsell_latam_hero1_weblandscape_2560x1280_051324.jpg);
   background-size: cover;
@@ -12,19 +11,24 @@ body {
 }
 
 #paramount-logo {
-  width: 200px;
+  width: 120px;
 }
 
 .boton {
   background-color: none;
   border: solid 2px white;
   border-radius: 3px;
-  padding: 10px;
+  padding: 20px;
   font-size: x-large;
 
   &.importante {
-    background-color: blue;
+    background-image: linear-gradient(45deg, #0064ff, #0037c5);
     border: unset;
+  }
+
+  &.nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 
