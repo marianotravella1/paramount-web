@@ -1,0 +1,58 @@
+header {
+  p {
+    font-weight: lighter;
+  }
+}
+
+
+body {
+  background-image: url(./images/upsell_latam_hero1_weblandscape_2560x1280_051324.jpg);
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#paramount-logo {
+  width: 200px;
+}
+
+.boton {
+  background-color: none;
+  border: solid 2px white;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: x-large;
+
+  &.importante {
+    background-color: blue;
+    border: unset;
+  }
+}
+
+p {
+  color: white;
+  font-size: larger;
+}
+
+.info-imp {
+  font-style: italic;
+}
+.slogan {
+  font-size: 32px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.login {
+  background: none;
+  border: none;
+}
+
+.login:hover {
+  color: gray;
+}
+
+main p:first-child {
+  font-size: 40px;
+  font-weight: 900;
+}
