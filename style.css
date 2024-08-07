@@ -1,15 +1,35 @@
-header {
-  p {
-    font-weight: lighter;
-  }
+h1, h2, h3 {
+  margin: 0;
 }
+
 
 body {
   background-image: url(./images/upsell_latam_hero1_weblandscape_2560x1280_051324.jpg);
   background-size: cover;
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+
 }
 
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 40px;
+  p {
+    font-weight: lighter;
+  }
+
+  >* {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+  }
+  
+}
 #paramount-logo {
   width: 120px;
 }
@@ -20,16 +40,27 @@ body {
   border-radius: 3px;
   padding: 20px;
   font-size: x-large;
+  text-align: center;
+  width: 450px;
 
   &.importante {
     background-image: linear-gradient(45deg, #0064ff, #0037c5);
     border: unset;
+    width: 453px;
   }
 
   &.nav {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  gap: 10px;
+  margin: 10px 40px;
 }
 
 p {
@@ -56,7 +87,12 @@ a {
   color: gray;
 }
 
-main p:first-child {
+h1 {
+  color: white;
   font-size: 40px;
   font-weight: 900;
+}
+
+.parrafos {
+  gap: 0px;
 }
